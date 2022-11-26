@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/* Estilo Geral */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis gerais de estilo*/
+:root{
+    --bg: #F8EDE3;
+    --font-color: #111111;
+    font-size: 12px;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--font-color);
+    font-family: 'Inter', sans-serif, Arial, Helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*=============== MENU DROPDOWN ==============*/
+
+.menu-h {
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menu-h a {
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+li {
+    float: left;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F9F9F9;
+    min-width: 160px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: #F1F1F1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*===========================================*/
+
+main {
+    position: relative;
+    min-height: 100%;
+    margin: 0px 20px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img {
+    opacity: .5;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.img-box {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 4px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #333;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer-content p{
+    text-align: center;
+    color: white;
+}
+
+/*========== Estilo Chinesa ========== */
+
+
+/*==================================== */
+
+/*========= Estilo Japonesa ========== */
+
+
+/*==================================== */
+
+/*========== Estilo Romana =========== */
+
+/*==================================== */
