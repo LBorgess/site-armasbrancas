@@ -267,13 +267,47 @@ li {
     margin-left: 150px;
 }
 
-/*==================================== */
-
-/*========= Estilo Japonesa ========== */
-
-
-/*==================================== */
-
 /*========== Estilo Romana =========== */
+
+.rodape p {
+    text-align: center;
+    color: white;
+}
+
+.page-container{
+    position: relative;
+    min-height: 100%;
+}
+
+.container {
+    padding: 0px 16px;
+    box-sizing: border-box;
+}
+
+.content-left {
+    float:left;
+    width: 47%;
+    margin-right: 16px;
+}
+.content-right {
+    float: right;
+    width: 47%;
+}
+
+.img-item {
+    width: 350px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 90px;
+}
+
+.img-item:hover{
+    opacity: 1;
+}
+
+/*========== Estilo Galeria =========== */
 
 /*==================================== */
